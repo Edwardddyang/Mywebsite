@@ -44,7 +44,7 @@ a {
 }
 
 nav {
-    background-color: #92d7e8;
+    background-color: #50d87d;
     display: flex;
     justify-content: space-between;
     padding: 0 3.125rem;
@@ -470,6 +470,7 @@ footer {
 
     #skills-section .skills-container {
         gap: 1.25rem;
+        
      }
 }
 
