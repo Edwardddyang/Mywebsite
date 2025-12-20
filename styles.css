@@ -3,7 +3,7 @@
     --text-color: #1a1c20;
     --link-color: #ffffff;
     --background-color: #eeeff1;
-    font-size: 17px; /* Set the base font size */
+    font-size: 20px; /* Set the base font size */
 }
 
 * {
@@ -23,19 +23,14 @@ video{
 }
 
 @font-face {
-    font-family: "Steph";
-    src: url("fonts/steph-font.ttf");
+    font-family: 'EdwardHandwriting'; 
+    src: url('fonts/Newfont-Regular.ttf') format('truetype');
     font-weight: normal;
-}
-
-@font-face {
-    font-family: "Steph";
-    src: url("fonts/steph-font-bold.ttf");
-    font-weight: bold;
+    font-style: normal;
 }
 
 body {
-    font-family: 'Steph', sans-serif;
+    font-family: 'EdwardHandwriting', sans-serif;
 }
 
 a {
@@ -44,7 +39,7 @@ a {
 }
 
 nav {
-    background-color: #50d87d;
+    background-color: #bfd6c4;
     display: flex;
     justify-content: space-between;
     padding: 0 3.125rem;
@@ -165,7 +160,7 @@ section h2::after {
 }
 
 #about-section .bio p {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: 300;
 }
 
@@ -234,7 +229,7 @@ section h2::after {
 
 #experience-section .experience-box p {
     margin-bottom: 0.5rem;
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-weight: 300;
 }
 
@@ -320,10 +315,11 @@ section h2::after {
 .project-box h5 {
     margin-bottom: 0.5rem;
     font-weight: 550;
+    font-size: 1.1rem;
 }
 
 .project-box p {
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 300;
     color: #494a4a;
 }
@@ -374,18 +370,7 @@ section h2::after {
     gap: 1rem;
 }
 
-#leave-message-section h2 {
-    margin-bottom: 1rem;
-    font-size: 2.75rem;
-    font-weight: 700;
-}
 
-#leave-message-section p {
-    font-size: 1.25rem;
-    color: #555;
-    max-width: 600px;
-    line-height: 1.6;
-}
 
 footer {
     background-color: #909090;
